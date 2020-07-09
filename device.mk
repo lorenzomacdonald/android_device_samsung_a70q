@@ -218,17 +218,14 @@ PRODUCT_COPY_FILES += \
 
 # Keymaster
 PRODUCT_PACKAGES += \
-    android.hardware.keymaster@4.0-service.samsung
+    android.hardware.keymaster@4.0-impl \
+    android.hardware.keymaster@4.0-service
 
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service \
     android.hardware.light@2.0-impl \
     lights.qcom
-
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.samsung-a70q
 
 # Media
 PRODUCT_COPY_FILES += \
