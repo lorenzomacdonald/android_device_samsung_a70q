@@ -14,6 +14,7 @@ $(call inherit-product, device/samsung/a70q/device.mk)
 
 # Pixel Experience targets
 TARGET_GAPPS_ARCH := arm64
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
