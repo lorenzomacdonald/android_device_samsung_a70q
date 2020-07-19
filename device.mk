@@ -133,6 +133,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleCamera
 
+# Wallpapers
+PRODUCT_PACKAGES += \
+    PixelLiveWallpaperPrebuilt
+
 # Display/Graphics
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.2-impl \
