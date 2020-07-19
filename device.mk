@@ -131,7 +131,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    GoogleCamera
 
 # Display/Graphics
 PRODUCT_PACKAGES += \
