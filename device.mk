@@ -129,16 +129,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libbthost_if
 
-# Camera
-PRODUCT_PACKAGES += \
-    GoogleCamera
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/GoogleCamera/com.google.android.GoogleCamera.xml:system/etc/permissions/com.google.android.GoogleCamera.xml
-
-# Wallpapers
-PRODUCT_PACKAGES += \
-    PixelLiveWallpaperPrebuilt
 
 # Display/Graphics
 PRODUCT_PACKAGES += \
