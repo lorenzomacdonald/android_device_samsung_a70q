@@ -16,7 +16,7 @@ $(call inherit-product, device/samsung/a70q/device.mk)
 $(call inherit-product, vendor/havoc/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_a70q
+PRODUCT_NAME := havoc_a70q
 PRODUCT_DEVICE := a70q
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A705
