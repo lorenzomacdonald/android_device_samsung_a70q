@@ -33,7 +33,10 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Havoc
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.havoc.maintainer=MUCHECO
+    ro.havoc.maintainer=MUCHECO \
+	persist.service.adb.enable \
+	persist.service.debuggable=1 \
+	persist.sys.usb.config=mtp,adb" \
 	
 	export export HAVOC_BUILD_TYPE=Unofficial
 
