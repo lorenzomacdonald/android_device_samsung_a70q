@@ -37,6 +37,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.service.adb.enable \
 	persist.service.debuggable=1 \
 	persist.sys.usb.config=mtp,adb" \
+	ro.adb.secure=0\
+        ro.secure=1\
+        ro.allow.mock.location=0\
+        ro.debuggable=1
 	
 	export export HAVOC_BUILD_TYPE=Unofficial
 
